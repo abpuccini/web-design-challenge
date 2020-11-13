@@ -1,0 +1,87 @@
+/* Navigator bar */
+.navbar-light .navbar-brand {
+    font-weight: bold;
+    color: #505050;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    font-weight: bold;
+    color: #505050;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+/* Body */
+.body {
+    background-color: lightgrey;
+}
+
+.box {
+    position: relative;
+    margin-top: 100px; 
+    margin-bottom: 70px;
+    padding: 10px 20px 15px 20px; 
+    background-color: white; 
+}
+
+h1 {
+    font-weight: bold;
+    padding-top: 10px;
+    color: #484848;
+}
+
+h3 {
+    font-weight: bold;
+    padding-top: 10px;
+    color: #484848;
+}
+
+.bold {
+    font-weight: bold;
+    color: #484848;
+}
+
+.indexpic {
+    width: 75%;
+    height: 75%;
+    margin-right: 20px; 
+}
+
+.rounded {
+    width: 210px;
+    height: 180px;
+}
+
+.box p {
+    color: #707070;
+}
+
+/* table */
+.description {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: white; 
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    color: #545c63;
+    min-height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 7px;
+    border-top-style: solid; 
+    border-top-width: 3px; 
+    border-top-color: gray;
+}
+
+.footer a {
+    color: #545c63;
+}
