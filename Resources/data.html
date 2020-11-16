@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
   <title>Data</title>
-  <!--Instruct browxer to control the page's dimensions and scaling-->
+  <!--Instruct browser to control the page's dimensions and scaling-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Bring in our bootstrap stylesheet -->
@@ -67,12 +67,16 @@
 
   <div class="container description">
     <div class="row">
-      <div class="col-12">
-        <div class="box">
+      <div class="box">
+        <div class="col-12">
           <h1>Data</h1>
           <hr>
           <p class=bold>The visualizations in this project are based on the following table.</p>
-          <table border="1" class="dataframe dataframe table table-hover table-striped table-bordered">
+          <!--Link to download file-->
+          <a class="nav-link" href="https://github.com/abpuccini/web-design-challenge/raw/main/Resources/data.xlsx"
+            target="_blank" rel="noopener" aria-label="Open Collective">Click to Download</a>
+          <!--Table-->
+          <table border="1" class="dataframe table table-hover table-striped table-bordered">
             <thead>
               <tr>
                 <th>City</th>
@@ -6139,20 +6143,16 @@
               </tr>
             </tbody>
           </table>
-          <div>
-            <a class="nav-link px-1 mx-1 py-3 my-n2"
-              href="https://github.com/abpuccini/web-design-challenge/raw/main/Resources/cities.csv" target="_blank"
-              rel="noopener" aria-label="Open Collective">Download Cities Data File</a>
-          </div>
         </div>
       </div>
     </div>
   </div>
   <!--Footer-->
   <footer>
-    <div class="footer">Copyright &copy;
-      <a href="https://github.com/abpuccini">Atcharaporn B Puccini</a>
-      &#x2709; <a href="b.atcharaporn@gmail.com"> b.atcharaporn@gmail.com</a>
+    <div class="footer">
+      &copy; <a target="_blank" href="https://www.linkedin.com/in/abpuccini/">Atcharaporn B
+        Puccini</a>
+      &#x2709; <a>b.atcharaporn@gmail.com</a>
     </div>
   </footer>
 </body>
