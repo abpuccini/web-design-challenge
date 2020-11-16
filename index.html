@@ -25,7 +25,7 @@
         crossorigin="anonymous"></script>
 
     <!--Bring in the css style sheet-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
 
 </head>
 
@@ -48,26 +48,28 @@
                             Plots
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                            <a class="dropdown-item" href="humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="wind_spd.html">Wind Speed</a>
+                            <a class="dropdown-item" href="visualizations/max_temp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="visualizations/wind_spd.html">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="comparison.html">Comparison</a>
+                        <a class="nav-link" href="visualizations/comparison.html">Comparison</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="data.html">Data</a>
+                        <a class="nav-link" href="Resources/data.html">Data</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
+
     <!--Content-->
-    <div class="container">
+    <div class="container description">
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
+            <!--Left Box-->
+            <div class="col-lg-7 col-sm-12">
                 <div class="box">
                     <h3>What's the Weather Like?</h3>
                     <hr>
@@ -96,42 +98,52 @@
                     </p>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="box">
+            <!--Right Box-->
+            <div class="col-lg-5 col-sm-12">
+                <div class="box visualbox">
                     <h3>Visualizations</h3>
                     <hr>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="max_temp.html">
-                                    <img src="assets/images/lat_temp.png" class="rounded" alt="Max Temp vs Latitude">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="humidity.html">
-                                    <img src="assets/images/lat_humd.png" class="rounded" alt="Humidity vs Latitude">
-                                </a>
-                            </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="max_temp.html">
+                                <img src="assets/images/lat_temp.png" class="rounded visualpic"
+                                    alt="Max Temp vs Latitude">
+                            </a>
                         </div>
-
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="cloudiness.html">
-                                    <img src="assets/images/lat_cloud.png" class="rounded" alt="Cloudiness vs Latitude">
-                                </a>
-                            </div>
-                            <div class="col-6">
-                                <a href="wind_spd.html">
-                                    <img src="assets/images/lat_wind.png" class="rounded" alt="wind_spd vs Latitude">
-                                </a>
-                            </div>
+                        <div class="col-6">
+                            <a href="humidity.html">
+                                <img src="assets/images/lat_humd.png" class="rounded visualpic"
+                                    alt="Humidity vs Latitude">
+                            </a>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="cloudiness.html">
+                                <img src="assets/images/lat_cloud.png" class="rounded visualpic"
+                                    alt="Cloudiness vs Latitude">
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <a href="wind_spd.html">
+                                <img src="assets/images/lat_wind.png" class="rounded visualpic"
+                                    alt="wind_spd vs Latitude">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Footer-->
                     <footer>
                         <div class="footer">Copyright &copy;
                             <a href="https://github.com/abpuccini">Atcharaporn B Puccini</a>
+                            &#x2709; <a href="b.atcharaporn@gmail.com"> b.atcharaporn@gmail.com</a>
                         </div>
                     </footer>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
