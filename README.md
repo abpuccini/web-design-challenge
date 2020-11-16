@@ -15,6 +15,8 @@ Click the link below to visit the website.
 
 Click the link below to visit the project regarding the website.
 
+[What's the Weather Like?{:target="_blank"}](https://github.com/abpuccini/python-api-challenge)
+
 <a href="https://github.com/abpuccini/python-api-challenge" target="_blank">What's the Weather Like?</a>
 
 ---
