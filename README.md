@@ -6,6 +6,12 @@ Data is more powerful when it is shared to others! Let take what've learned abou
 
 ## Webpage
 
-Please click the link to visit the website.
+Click the link below to visit the website.
 
 [Weather Website](https://abpuccini.github.io/web-design-challenge/)
+
+## Data visualization
+
+Click the link below to visit the project regarding to the website.
+
+[What's the Weather Like?](https://github.com/abpuccini/python-api-challenge)
