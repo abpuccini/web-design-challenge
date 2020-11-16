@@ -8,7 +8,7 @@ Data is more powerful when it is shared to others! Let's take what I've learned 
 
 Click the link below to visit the website.
 
-[Weather Website](https://abpuccini.github.io/web-design-challenge/)
+[Weather Website](https://abpuccini.github.io/web-design-challenge/){:target="_blank"}
 
 ## Data Visualization Process
 
